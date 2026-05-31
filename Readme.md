@@ -1,6 +1,6 @@
 # Личный проект «Кекстаграм»
 
-* Студент: [Елизавета Ануфриева](https://up.htmlacademy.ru/javascript-individual/2/user/2274011).
+* Студент: [Елизавета Ануфриева](https://github.com/elisabeth-li).
 * Наставник: [Сергей Остаповец](https://github.com/SeraphimEvil).
 
 ---
