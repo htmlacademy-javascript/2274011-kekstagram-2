@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+
 // Функция 1: Проверка длины строки
 const isStringWithinMaxLength = (string, maxLength) => string.length <= maxLength;
 
