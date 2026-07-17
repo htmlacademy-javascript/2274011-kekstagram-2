@@ -2,10 +2,10 @@
 const isStringWithinMaxLength = (string, maxLength) => string.length <= maxLength;
 
 //Проверка
-window.console.log('Проверка функции длины строки:');
-window.console.log(isStringWithinMaxLength('проверяемая строка', 20));
-window.console.log(isStringWithinMaxLength('проверяемая строка', 18));
-window.console.log(isStringWithinMaxLength('проверяемая строка', 10));
+console.log('Проверка функции длины строки:');
+console.log(isStringWithinMaxLength('проверяемая строка', 20));
+console.log(isStringWithinMaxLength('проверяемая строка', 18));
+console.log(isStringWithinMaxLength('проверяемая строка', 10));
 
 // Функция 2: Проверка на палиндром
 const isPalindrome = (string) => {
@@ -15,11 +15,11 @@ const isPalindrome = (string) => {
 };
 
 //Проверка в консоли
-window.console.log('Проверка функции палиндрома:');
-window.console.log(isPalindrome('топот'));
-window.console.log(isPalindrome('ДовОд'));
-window.console.log(isPalindrome('Кекс'));
-window.console.log(isPalindrome('Лёша на полке клопа нашёл '));
+console.log('Проверка функции палиндрома:');
+console.log(isPalindrome('топот'));
+console.log(isPalindrome('ДовОд'));
+console.log(isPalindrome('Кекс'));
+console.log(isPalindrome('Лёша на полке клопа нашёл '));
 
 // Функция 3: Извлечение чисел из строки
 function extractDigits(input) {
@@ -39,9 +39,9 @@ function extractDigits(input) {
 }
 
 //Провека в консоли
-window.console.log('Проверка сколько чисел в строке:');
-window.console.log(extractDigits('2023 год'));
-window.console.log(extractDigits('ECMAScript 2022'));
-window.console.log(extractDigits('1 кефир, 0.5 батона'));
-window.console.log(extractDigits('агент 007'));
-window.console.log(extractDigits('а я томат'));
+console.log('Проверка сколько чисел в строке:');
+console.log(extractDigits('2023 год'));
+console.log(extractDigits('ECMAScript 2022'));
+console.log(extractDigits('1 кефир, 0.5 батона'));
+console.log(extractDigits('агент 007'));
+console.log(extractDigits('а я томат'));
